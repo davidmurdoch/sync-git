@@ -1,0 +1,24 @@
+{
+  "parent": "a86c9b46-63bd-4c99-9ab4-512b22133dd7",
+  "pid": 19038,
+  "argv": ["/home/david/.nvm/versions/node/v20.11.1/bin/node", "/home/david/code/sync-git-reader/tests/git.test.ts"],
+  "execArgv": [
+    "--require",
+    "/home/david/code/sync-git-reader/node_modules/tsx/dist/preflight.cjs",
+    "--import",
+    "file:///home/david/code/sync-git-reader/node_modules/tsx/dist/loader.mjs"
+  ],
+  "cwd": "/home/david/code/sync-git-reader",
+  "time": 1711551988188,
+  "ppid": 19031,
+  "coverageFilename": "/home/david/code/sync-git-reader/.nyc_output/9d0285b2-6f65-4ca3-a372-a616a3bcb538.json",
+  "externalId": "",
+  "uuid": "9d0285b2-6f65-4ca3-a372-a616a3bcb538",
+  "files": [
+    "/home/david/code/sync-git-reader/src/index.ts",
+    "/home/david/code/sync-git-reader/src/pack.ts",
+    "/home/david/code/sync-git-reader/src/reader.ts",
+    "/home/david/code/sync-git-reader/src/inflate.ts",
+    "/home/david/code/sync-git-reader/src/delta.ts"
+  ]
+}

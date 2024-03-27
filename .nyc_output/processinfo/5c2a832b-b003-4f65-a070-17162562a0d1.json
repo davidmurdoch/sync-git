@@ -1,0 +1,18 @@
+{
+  "parent": null,
+  "pid": 19011,
+  "argv": [
+    "/home/david/.nvm/versions/node/v20.11.1/bin/node",
+    "/home/david/code/sync-git-reader/node_modules/.bin/tsx",
+    "--test",
+    "./tests/git.test.ts"
+  ],
+  "execArgv": [],
+  "cwd": "/home/david/code/sync-git-reader",
+  "time": 1711551987932,
+  "ppid": 18991,
+  "coverageFilename": "/home/david/code/sync-git-reader/.nyc_output/5c2a832b-b003-4f65-a070-17162562a0d1.json",
+  "externalId": "",
+  "uuid": "5c2a832b-b003-4f65-a070-17162562a0d1",
+  "files": []
+}

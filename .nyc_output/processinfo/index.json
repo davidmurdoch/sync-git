@@ -1,0 +1,18 @@
+{
+  "processes": {
+    "5c2a832b-b003-4f65-a070-17162562a0d1": { "parent": null, "children": ["a86c9b46-63bd-4c99-9ab4-512b22133dd7"] },
+    "9d0285b2-6f65-4ca3-a372-a616a3bcb538": { "parent": "a86c9b46-63bd-4c99-9ab4-512b22133dd7", "children": [] },
+    "a86c9b46-63bd-4c99-9ab4-512b22133dd7": {
+      "parent": "5c2a832b-b003-4f65-a070-17162562a0d1",
+      "children": ["9d0285b2-6f65-4ca3-a372-a616a3bcb538"]
+    }
+  },
+  "files": {
+    "/home/david/code/sync-git-reader/src/index.ts": ["9d0285b2-6f65-4ca3-a372-a616a3bcb538"],
+    "/home/david/code/sync-git-reader/src/pack.ts": ["9d0285b2-6f65-4ca3-a372-a616a3bcb538"],
+    "/home/david/code/sync-git-reader/src/reader.ts": ["9d0285b2-6f65-4ca3-a372-a616a3bcb538"],
+    "/home/david/code/sync-git-reader/src/inflate.ts": ["9d0285b2-6f65-4ca3-a372-a616a3bcb538"],
+    "/home/david/code/sync-git-reader/src/delta.ts": ["9d0285b2-6f65-4ca3-a372-a616a3bcb538"]
+  },
+  "externalIds": {}
+}

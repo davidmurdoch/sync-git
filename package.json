@@ -1,0 +1,36 @@
+{
+  "name": "sync-git-reader",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/main.js",
+  "types": "./lib/main.d.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "nyc --reporter=html tsx --test ./tests/*.test.ts",
+    "build": "tsc",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "david@davidmurdoch.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "nyc": "^15.1.0",
+    "prettier": "^3.2.5",
+    "tsx": "^4.7.1",
+    "typescript": "5.4.3"
+  },
+  "lint-staged": {
+    "**/*": "prettier . --write"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "trailingComma": "none"
+  }
+}

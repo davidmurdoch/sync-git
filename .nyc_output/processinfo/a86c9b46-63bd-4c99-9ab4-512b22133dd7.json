@@ -1,0 +1,19 @@
+{
+  "parent": "5c2a832b-b003-4f65-a070-17162562a0d1",
+  "pid": 19031,
+  "argv": ["/home/david/.nvm/versions/node/v20.11.1/bin/node", "./tests/git.test.ts"],
+  "execArgv": [
+    "--require",
+    "/home/david/code/sync-git-reader/node_modules/tsx/dist/preflight.cjs",
+    "--import",
+    "file:///home/david/code/sync-git-reader/node_modules/tsx/dist/loader.mjs",
+    "--test"
+  ],
+  "cwd": "/home/david/code/sync-git-reader",
+  "time": 1711551988001,
+  "ppid": 19011,
+  "coverageFilename": "/home/david/code/sync-git-reader/.nyc_output/a86c9b46-63bd-4c99-9ab4-512b22133dd7.json",
+  "externalId": "",
+  "uuid": "a86c9b46-63bd-4c99-9ab4-512b22133dd7",
+  "files": []
+}
