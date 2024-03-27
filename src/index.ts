@@ -21,7 +21,7 @@ import { getCommitFromPackFile } from "./pack";
  * @throws Throws an error if the current branch is detached or has no commits.
  * May also throw if the Git repository is malformed (or not found).
  */
-export function getLastCommitHash(gitDir = join(__dirname, "../../../.git")) {
+export function getLastCommitHash(gitDir = join(__dirname, "../.git")) {
   // read .git/HEAD to get the current branch/commit
   const head = readFileSync(join(gitDir, "HEAD"), "utf8").trim();
   return fromOidFromSymbolicRef(head, gitDir);
@@ -48,7 +48,7 @@ export function getLastCommitHash(gitDir = join(__dirname, "../../../.git")) {
  * @throws Throws an error if the current branch is detached or has no commits.
  * May also throw if the Git repository is malformed (or not found).
  */
-export function getCommitTimestamp(oid: string | null = null, gitDir = join(__dirname, "../../../.git")) {
+export function getCommitTimestamp(oid: string | null = null, gitDir = join(__dirname, "../.git")) {
   let hash = oid;
   if (hash === null) hash = getLastCommitHash(gitDir);
   const commitBuffer = getCommit(hash, gitDir);
